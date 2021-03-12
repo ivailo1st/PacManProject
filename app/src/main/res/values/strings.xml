@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PacmanKotlin</string>
+    <string name="points">Points:</string>
+    <string name="pause_button">Pause/Resume</string>
+    <string name="action_settings">Settings</string>
+    <string name="newgame">New Game</string>
+    <string name="count_down">TimeLeft:</string>
+    <string name="level">Bonus Enemy Speed:</string>
+</resources>
