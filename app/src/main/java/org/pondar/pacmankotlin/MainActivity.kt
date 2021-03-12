@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
         requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
         setContentView(R.layout.activity_main)
 
-        game = Game(this,pointsView)
+        game = Game(this,pointsView, level)
 
         //Initialization of the gameView class and game class
         game?.setGameView(gameView)

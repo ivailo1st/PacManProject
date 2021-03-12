@@ -9,10 +9,10 @@ import java.util.ArrayList
 import kotlin.math.sqrt
 import kotlin.random.Random
 
-class Game(private var context: Context, view: TextView) {
+class Game(private var context: Context, view: TextView, view2: TextView) {
 
     private var pointsView: TextView = view
-    private var level: TextView = view
+    private var level: TextView = view2
 
     //TimeLimit and Points
     var points: Int = 0
