@@ -81,7 +81,7 @@ class Game(private var context: Context, view: TextView, view2: TextView) {
     }
 
     fun initializeGoldcoins(canvas: Canvas, paint: Paint) {
-        for (i in 1..5) {
+        for (i in 1..11) {
             val randY = rand(100, h - 200)
             val randX = rand(100, w - 200)
 
@@ -97,7 +97,7 @@ class Game(private var context: Context, view: TextView, view2: TextView) {
     }
 
     fun GameOver(): Boolean {
-        return ((points < 5) && (countDown > 0))
+        return ((points < 11) && (countDown > 0))
 
     }
 

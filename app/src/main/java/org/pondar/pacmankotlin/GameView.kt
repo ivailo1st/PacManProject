@@ -95,7 +95,7 @@ class GameView : View {
         //Game Over Message
         else if(!(over) && !(game!!.GameOver())) {
             game!!.countDown = 0
-            if(game!!.points == 5){
+            if(game!!.points == 11){
                 Toast.makeText(context, "Player Wins", Toast.LENGTH_SHORT).show()
                 game!!.difficulty += 5
             }
